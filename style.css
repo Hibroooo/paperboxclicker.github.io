@@ -1,0 +1,9 @@
+body {
+  background-color: url("portal.png");
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
