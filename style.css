@@ -8,10 +8,16 @@ body {
   margin: auto;
   width: 300px;
   height: fit-content;
+  transition: transform 0.25 ease;
+  -webkit-tap-highlight-color: transparent;
 }
 
 #portal img {
-  width: 100%;
+  width: 120%;
   height: auto;
   display: block;
+}
+
+#portal:active {
+  transform: scale(0.9);
 }
