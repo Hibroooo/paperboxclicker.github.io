@@ -2,14 +2,6 @@ body {
   background-color: green;
 }
 
-#title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
-}
-
 #portal {
   display: flex;
   justify-content: center;
